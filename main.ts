@@ -41,33 +41,33 @@ basic.forever(function () {
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         if (_1 == 1) {
-            _1 = 0
+            _1 = 4
             score += 1
             basic.clearScreen()
         } else {
-            _1 = 0
+            _1 = 4
             score += score - 1
             basic.clearScreen()
         }
     }
     if (input.buttonIsPressed(Button.AB)) {
         if (_1 == 2) {
-            _1 = 0
+            _1 = 4
             score += 1
             basic.clearScreen()
         } else {
-            _1 = 0
+            _1 = 4
             score += score - 1
             basic.clearScreen()
         }
     }
     if (input.buttonIsPressed(Button.B)) {
         if (_1 == 0) {
-            _1 = 0
+            _1 = 4
             score += 1
             basic.clearScreen()
         } else {
-            _1 = 0
+            _1 = 4
             score += score - 1
             basic.clearScreen()
         }
